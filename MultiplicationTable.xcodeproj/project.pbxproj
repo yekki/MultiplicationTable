@@ -12,6 +12,7 @@
 		8D31C3A21E332A41008EEB68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D31C3A01E332A41008EEB68 /* Main.storyboard */; };
 		8D31C3A41E332A41008EEB68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D31C3A31E332A41008EEB68 /* Assets.xcassets */; };
 		8D31C3A71E332A41008EEB68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D31C3A51E332A41008EEB68 /* LaunchScreen.storyboard */; };
+		8DCDC5CB1E33C6D400C91B61 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8DCDC5CA1E33C6D400C91B61 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8D31C3A31E332A41008EEB68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D31C3A61E332A41008EEB68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D31C3A81E332A41008EEB68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DCDC5CA1E33C6D400C91B61 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		8D31C3901E332A40008EEB68 = {
 			isa = PBXGroup;
 			children = (
+				8DCDC5CA1E33C6D400C91B61 /* README.md */,
 				8D31C39B1E332A41008EEB68 /* MultiplicationTable */,
 				8D31C39A1E332A41008EEB68 /* Products */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DCDC5CB1E33C6D400C91B61 /* README.md in Sources */,
 				8D31C39F1E332A41008EEB68 /* ViewController.swift in Sources */,
 				8D31C39D1E332A41008EEB68 /* AppDelegate.swift in Sources */,
 			);
@@ -310,6 +314,7 @@
 				8D31C3AD1E332A41008EEB68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
