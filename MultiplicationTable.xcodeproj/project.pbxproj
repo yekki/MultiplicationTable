@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,7 +12,6 @@
 		8D31C3A21E332A41008EEB68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D31C3A01E332A41008EEB68 /* Main.storyboard */; };
 		8D31C3A41E332A41008EEB68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D31C3A31E332A41008EEB68 /* Assets.xcassets */; };
 		8D31C3A71E332A41008EEB68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D31C3A51E332A41008EEB68 /* LaunchScreen.storyboard */; };
-		8DCDC5CB1E33C6D400C91B61 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8DCDC5CA1E33C6D400C91B61 /* README.md */; };
 		8DE4C73E1E34604000F3E6BB /* Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE4C73D1E34604000F3E6BB /* Brain.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +23,6 @@
 		8D31C3A31E332A41008EEB68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D31C3A61E332A41008EEB68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D31C3A81E332A41008EEB68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8DCDC5CA1E33C6D400C91B61 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8DE4C73D1E34604000F3E6BB /* Brain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -42,7 +40,6 @@
 		8D31C3901E332A40008EEB68 = {
 			isa = PBXGroup;
 			children = (
-				8DCDC5CA1E33C6D400C91B61 /* README.md */,
 				8D31C39B1E332A41008EEB68 /* MultiplicationTable */,
 				8D31C39A1E332A41008EEB68 /* Products */,
 			);
@@ -108,7 +105,7 @@
 				};
 			};
 			buildConfigurationList = 8D31C3941E332A40008EEB68 /* Build configuration list for PBXProject "MultiplicationTable" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -143,7 +140,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DCDC5CB1E33C6D400C91B61 /* README.md in Sources */,
 				8D31C39F1E332A41008EEB68 /* ViewController.swift in Sources */,
 				8DE4C73E1E34604000F3E6BB /* Brain.swift in Sources */,
 				8D31C39D1E332A41008EEB68 /* AppDelegate.swift in Sources */,
@@ -269,6 +265,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 7VCU8E8U29;
 				INFOPLIST_FILE = MultiplicationTable/Info.plist;
@@ -286,6 +283,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 7VCU8E8U29;
 				INFOPLIST_FILE = MultiplicationTable/Info.plist;
