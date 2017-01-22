@@ -158,13 +158,20 @@ class ViewController: UIViewController {
             answerButton.isHidden = true
             answerTextField.resignFirstResponder()
             wrongCount = 0
+            updateScreen(String(currentProblem.0) + " x " + String(currentProblem.1) + " = \(currentProblem.2)")
 
         } else {
             wrongCount! += 1
             answerTextField.text = ""
             
             if wrongCount == 1 {
-                resultLabel.text = "你的答案不对哟，再想想？☹️"
+                
+                if resultLabel.text == "" {
+                    resultLabel.text = " 妞妞，你还没输入答案呢！☹️"
+                }
+                else {
+                    resultLabel.text = "你的答案不对哟，再想想？☹️"
+                }
                 wrongProblems?.append(currentProblem)
             }
         }
@@ -177,6 +184,7 @@ class ViewController: UIViewController {
         let score = 100 - lroundf(Float(wrongProblems!.count)/Float(parseNum(unitSizeLabel.text!))*100)
         let badge = String(repeating: "🏅", count: lroundf(Float(score)/Float(100)*10)/2)
         resultLabel.text = "你的得分：\(score)\n" + badge
+        indexLabel.text = ""
     }
     
     func showProblem() {
